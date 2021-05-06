@@ -1,0 +1,35 @@
+.row_posters{
+    display: flex;
+    overflow-x: scroll;
+    padding:5PX;
+}
+.row_posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    height: 7em;
+    object-fit: contain;
+    border-radius: 1px;
+    margin-right: 8px;
+}
+.poster_bada{
+    height: 13em;
+    object-fit: contain;
+    border-radius: 1px;
+    margin-right: 8px;
+}
+.poster_bada:hover{
+    transform: scale(1.08);
+}
+.poster:hover{
+    transform: scale(1.08);
+
+}
+.parent_row{
+    margin-left: 25px;
+}
+.row_title{
+    display: flex;
+    justify-content: left;
+    color: white;
+}
